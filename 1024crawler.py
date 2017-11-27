@@ -167,7 +167,7 @@ if __name__ == "__main__":
             getArtilcle(url)
         else:
             if choose=="4":
-                url = input("请出入图片的网址:")
+                url = input("请输入图片的网址:")
                 getPicture(url)
             else:
                 search()
